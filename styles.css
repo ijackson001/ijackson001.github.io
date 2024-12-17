@@ -1,0 +1,73 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+header {
+    background-color: #647529; /* Adjust the color as needed */
+    color: rgb(216, 212, 202);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2.0em;
+    font-weight: bold;
+    max-width: 75px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ddd;
+}
+
+/* Image Section */
+.hero-image {
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    background-image: url('petline.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Content Section */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    margin: auto 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
